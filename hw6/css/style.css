@@ -1,0 +1,58 @@
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 53px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {    
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation {
+    margin-left: 229px;   
+    margin-top: 8px; 
+    height: 45px;    
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation ul li.item {
+    display: inline-block;    
+    margin-left: 50px;
+}
+
+.navigation ul li.item a  {
+    padding-bottom: 25px;    
+    color: black;
+    font-size: 16px;            
+}
+
+.navigation ul li.item a:hover {    
+    border-bottom: 4px solid green;    
+    text-shadow: 0.8px 0.8px #3D3D3D;
+}
+
+.login {
+    background-color: green;    
+    display: inline-block;
+    border-radius: 6px;
+    margin-left: 321px;   
+}
+
+.login img {
+    display: inline-block;
+    margin: 7px 4px 8px 17px;
+}
+
+.login span {
+    color: white;
+    margin: 8px 17px 7px 4px;
+    
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
