@@ -1,0 +1,226 @@
+.header {    
+    margin-top: 30px;
+    height: 53px;    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {    
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-list {
+    margin-left: 229px;   
+    margin-top: 8px; 
+    height: 45px;    
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-list li.item {
+    display: inline-block;    
+    margin-left: 50px;
+}
+
+.nav-list li.item a  {
+    padding-bottom: 25px;    
+    color: black;
+    font-size: 16px;            
+}
+
+.nav-list li.item a:hover {    
+    border-bottom: 4px solid green;    
+    text-shadow: 0.8px 0.8px #3D3D3D;
+}
+
+.login {
+    background-color: green;    
+    display: inline-block;
+    border-radius: 6px;
+    margin-left: 321px;   
+}
+
+.login img {
+    display: inline-block;
+    margin: 7px 4px 8px 17px;
+}
+
+.login span {
+    color: white;
+    margin: 8px 17px 7px 4px;
+    
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/*  center content */
+
+
+.page {
+    margin-top: 30px;
+}
+
+.categories-block {
+    width: 310px;
+    height: 774px;
+    background-color: #FBFBFB;
+}
+
+.categories-header {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 18px ;
+    margin-top: 14px ;
+}
+
+.categories-links {
+    margin-top: 7px;
+    margin-left: 30px;
+}
+
+.categories-links .item a {
+    font-size: 15px;    
+    display: inline-block;
+    line-height: 40px;
+    color: #3D3D3D;
+    
+}
+
+.categories-links .item a:hover {
+    color: #46A358;    
+    text-shadow: 0.8px 0.8px #3D3D3D;
+}
+
+.sidebar-left {    
+    float: left;
+}
+
+.sidebar-main {    
+    width: 840px;
+    vertical-align: top;
+    margin-left: 44px;
+    float: right;
+}
+
+.top-links {
+    text-align: right;
+    border: 1px sold #46A358;
+}
+
+.top-list {
+    vertical-align: top;
+    text-align: left;
+    float: left;
+}
+
+.fast-link-item {            
+    display: inline-block;
+    margin-right: 37px;
+}
+
+.fast-link-item a {        
+    font-size: 15px;
+    color: #3D3D3D;
+}
+
+.fast-link-item a:hover, .fast-link-item-active a {        
+    color: #46A358;
+    padding-bottom: 7px;
+    border-bottom: 2px solid #46A358;
+    font-weight: 700;
+}
+
+.sorting-container {
+    float: right;
+}
+
+.sorting-container a  {            
+    font-size: 15px;
+    height: 23px;
+    color: #3D3D3D;
+}
+
+.default-sorting::after {
+    background-image: url("../img/arrow-down.png") ;
+    content: "";
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.product-list {
+    border: 1px sold #46A358;
+    margin-top: 30px;    
+}
+
+.product-item {
+    height: 350px;
+    width: 258px;
+    float: left;
+    margin-right: 21px;   
+    margin-bottom: 30px;   
+}
+
+.product-img {
+    height: 250px;
+    width: 250px;    
+    margin-top: 31px;
+    margin-bottom: 31px;
+    
+}
+
+.product-title {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: #46A358;  
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.pagination-list {
+    float: right;
+    margin-top: 90px;
+}
+
+.pagination-item {
+    float: left;
+    margin-left: 10px;
+}
+
+.pag-link {
+    padding: 10px 11px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;    
+}
+
+.pag-link:hover, .pag-link-active {
+    background-color: #46A358;
+    color: #fff;
+}
+
