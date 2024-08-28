@@ -1,0 +1,124 @@
+
+.footer {
+    font-family: 'Cera Pro';
+    margin-top: 69px;
+}
+
+.container {
+    max-width: 1202px;
+    margin: 0 auto;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 586px;
+    display: flex;
+    align-items: center;  
+}
+
+.product-info {
+    text-align: right;  
+}
+
+.product-title {
+    font-size: 18px;
+    text-align: right;
+    display: inline-block;    
+    font-weight: 900;
+    margin-right: 30px;
+    line-height: 24px;
+    color: #3D3D3D;
+    font-variant-caps: all-petite-caps;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #727272;
+    margin-top: 9px;
+    margin-right: 30px;
+}
+
+.product-more {
+    background-color: #46A358;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    width: 140px;
+    height: 40px;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.product-posts {
+    margin-top: 138px;
+}
+
+.product-posts-heading {
+    font-size: 30px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #3D3D3D;
+}
+
+.product-posts-paragraph {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #727272;
+    text-align: center;
+}
+
+.post-list {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;        
+}
+
+.post-item {
+    width: 268px;    
+    background-color: #FBFBFB;
+
+}
+
+.post-info {
+    padding: 9px 11px 12px 15px;
+    text-align: left;
+}
+
+.post-time-to-read {
+    font-size: 14px;
+    line-height: 16px;
+    color: #46A358;
+}
+
+.post-heading {
+    font-size: 20px;
+    line-height: 26px;
+    color: #3D3D3D; 
+    font-weight: 700;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.post-short-desc {
+    font-size: 14px;
+    line-height: 22px;
+    color: #727272;
+    font-weight: 400;
+}
+
+.post-read-more {
+    color: #3D3D3D;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    display: inline-block;
+    margin-top: 9px;    
+}
+
+
+
