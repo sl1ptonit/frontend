@@ -164,16 +164,17 @@
 }
 
 .product-list {
-    border: 1px sold #46A358;
     margin-top: 30px;    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .product-item {
     height: 350px;
     width: 258px;
-    float: left;
     margin-right: 21px;   
-    margin-bottom: 30px;   
+    margin-bottom: 70px;
+    position: relative;   
 }
 
 .product-img {
@@ -213,9 +214,9 @@
     line-height: 16px;
     color: #FFFFFF;
     padding: 7px 8px 6px 9px;
-    position: relative;
-    bottom: 315px;
-    right: 140px;
+    position: absolute;
+    top: 17px;
+    left: 0px;
 }
 
 .product-fast-link {
@@ -228,15 +229,21 @@
 
 .product-item:hover .product-fast-link  {
     display: flex;
-    position: relative;
-    bottom: 82px;
-    left: 60px; 
+    position: absolute;
+    bottom: 53px;
+    left: 56px; 
 }
 
-.product-item:hover, .product-item:hover    {
-    border-top: 1px solid green;
+.product-item-line {
+    display: none;    
 }
 
+.product-item:hover .product-item-line    {
+    display: block;
+    position: absolute;
+    width: inherit;    
+    border: 1px solid #46A358;
+}
 
 .clearfix::after {
     content: "";
