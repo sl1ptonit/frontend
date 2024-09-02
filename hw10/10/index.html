@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./fonts.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Home</a>
+          <ul class="navigation-inner-list">
+            <li class="navigation-inner-item">
+              <a href="#" class="navigation-inner-link">inner link</a>
+            </li>
+            <li class="navigation-inner-item">
+              <a href="#" class="navigation-inner-link">inner link</a>
+            </li>
+            <li class="navigation-inner-item">
+              <a href="#" class="navigation-inner-link">inner link</a>              
+            </li>
+          </ul>
+        </li>
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">About</a>
+          <ul class="navigation-inner-list">
+            <li class="navigation-inner-item">
+              <a href="#" class="navigation-inner-link">inner link</a>
+            </li>
+            <li class="navigation-inner-item">
+              <a href="#" class="navigation-inner-link">inner link</a>
+            </li>
+            <li class="navigation-inner-item">
+              <a href="#" class="navigation-inner-link">inner link</a>
+            </li>
+          </ul>
+        </li>
+        <li class="navigation-item">
+          <a href="#" class="navigation-link">Contact</a>
+          <ul class="navigation-inner-list">
+            <li class="navigation-inner-item">
+              <a href="#" class="navigation-inner-link">inner link</a>
+            </li>
+            <li class="navigation-inner-item">
+              <a href="#" class="navigation-inner-link">inner link</a>
+            </li>           
+          </ul>
+        </li>        
+      </ul>
+    </nav>
+
+    <style>
+      body {
+        background-color: #ccc;
+      }
+
+      .navigation-list {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+      }
+
+      .navigation-item {
+        position: relative;
+      }
+
+      .navigation-item:hover > .navigation-inner-list {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .navigation-item:hover .navigation-link {
+        background-color: hsl(0, 0%, 100%);
+        font-weight: bold;
+        color: #000;
+      }
+
+      .navigation-link, .navigation-inner-link {
+        display: block;
+        padding: 10px 5px;
+        background-color: black;
+        color: #fff;
+      }
+
+      .navigation-inner-list {
+        position: absolute;
+        background-color: bisque;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        max-width: 500px;
+        min-width: 200px;
+      }
+
+      .navigation-inner-item {
+        position: relative;
+      }
+
+      .navigation-inner-item:hover > .navigation-inner-list {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .navigation-inner-item:hover > .navigation-inner-link {
+        background-color: hsl(0, 0%, 100%);
+        font-weight: bold;
+        color: #000;
+      }
+    </style>
+  </body>
+</html>

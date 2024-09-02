@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "CeraPro-Thin";
+    src: url("./fonts/CeraPro/CeraPro-Thin.ttf");
+}
+
+@font-face {
+    font-family: "CeraPro-Light";
+    src: url("./fonts/CeraPro/CeraPro-Light.ttf");
+}
+
+@font-face {
+    font-family: "CeraPro-Regular";
+    src: url("./fonts/CeraPro/CeraPro-Regular.ttf");
+}

@@ -1,3 +1,7 @@
+body {
+    font-family: 'Cera Pro';
+}
+
 .header {    
     margin-top: 30px;
     height: 53px;    
@@ -10,6 +14,9 @@
 
 .top-header {
     border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 13px;
 }
 
 .logo {    
@@ -17,35 +24,84 @@
     vertical-align: top;
 }
 
-.nav-list {
-    margin-left: 229px;   
+/* Navigation */
+
+.navigation-list {
     margin-top: 8px; 
-    height: 45px;    
-    display: inline-block;
+    display: flex;    
     vertical-align: top;
 }
 
-.nav-list li.item {
-    display: inline-block;    
-    margin-left: 50px;
+.navigation-item {    
+    margin-left: 47px;
+    position: relative;  
 }
 
-.nav-list li.item a  {
+.navigation-link {
     padding-bottom: 25px;    
-    color: black;
+    color: black;   
     font-size: 16px;            
 }
 
-.nav-list li.item a:hover {    
-    border-bottom: 4px solid green;    
-    text-shadow: 0.8px 0.8px #3D3D3D;
+.navigation-link, .navigation-inner-link {
+    display: block;
+    padding: 10px 5px;    
+ }
+
+.navigation-item:hover {    
+     border-bottom: 4px solid green;    
+    /* text-shadow: 0.8px 0.8px #3D3D3D;  */
 }
 
+.navigation-item:hover > .navigation-inner-list {
+    display: flex;
+    flex-direction: column;
+} 
+
+.navigation-inner-list {
+    z-index: 1;
+    display: none;
+    position: absolute;    
+    top: 50px;    
+    width: 188px;
+    max-width: 188px;
+    min-width: 100px;
+}
+
+.navigation-inner-item {
+    position: relative;
+}
+
+.navigation-inner-link {
+    display: block; 
+    padding: 7px 102px 8px 7px;
+    color: #3D3D3D;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.navigation-inner-link:hover {    
+    border: 1px solid blue;    
+}
+
+.navigation-inner-item:hover > .navigation-inner-list {
+    display: flex;    
+  }
+
+  .navigation-inner-item:hover > .navigation-inner-link {
+    background-color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    color: #000;
+  }
+
+/* navigation end */
+
 .login {
+    height: 35px;
+    width: 100px;
     background-color: green;    
     display: inline-block;
     border-radius: 6px;
-    margin-left: 321px;   
 }
 
 .login img {
@@ -55,8 +111,7 @@
 
 .login span {
     color: white;
-    margin: 8px 17px 7px 4px;
-    
+    padding-top: 9px;    
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
@@ -64,7 +119,6 @@
 
 
 /*  center content */
-
 
 .page {
     margin-top: 30px;
